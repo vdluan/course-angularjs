@@ -11,11 +11,9 @@
     <div ng-controller="MyFirstController">
       <div>
         My name
-        <input type="text" ng-model="name" ng-keyup="displayNumeric();">
+        <input type="text" ng-model="name" ng-blur="upper();">
       </div>
-      <div>
-        My name total value is {{totalValue}}
-      </div>
+
     </div>
 
   </body>
